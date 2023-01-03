@@ -1,0 +1,30 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/orange/workspace/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang '-DCMAKE_CXX_COMPILER=/usr/bin/clang++-14' -G 'CodeBlocks - Unix Makefiles' -S /home/orange/workspace -B /home/orange/workspace/cmake-build-debug"
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_C_COMPILER:
+
+    /usr/bin/clang
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_CXX_COMPILER:
+
+    /usr/bin/clang++-14
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/orange/workspace/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/orange/workspace/cmake-build-debug/CMakeFiles/CMakeError.log".
