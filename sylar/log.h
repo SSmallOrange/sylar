@@ -38,6 +38,8 @@
 #include <fstream>
 #include <vector>
 #include <map>
+#include "util.h"
+#include "singleton.h"
 /*
  * mypoint: 关于流相关的宏： 这里用wrap的原因是，wrap作为临时对象，在使用完后直接析构，触发日志写入，然而日志本身的智能指针，
  *                  如果声明在主函数里面，程序不结束就永远无法释放，LogEventWrap在if语句结束后会结束生命周期调用析构函数实现打印
@@ -66,6 +68,8 @@
 #define SYLAR_LOG_FMT_WARN(logger, fmt, ...)  SYLAR_LOG_FMT_LEVEL(logger, sylar::LogLevel::WARN, fmt, __VA_ARGS__)
 #define SYLAR_LOG_FMT_ERROR(logger, fmt, ...) SYLAR_LOG_FMT_LEVEL(logger, sylar::LogLevel::ERROR, fmt, __VA_ARGS__)
 #define SYLAR_LOG_FMT_FATAL(logger, fmt, ...) SYLAR_LOG_FMT_LEVEL(logger, sylar::LogLevel::FATAL, fmt, __VA_ARGS__)
+
+#define SYLAR_LOG_ROOT() sylar::LoggerMgr::GetInstance()->getRoot()
 
 namespace sylar {
   class Logger;
@@ -217,13 +221,15 @@ namespace sylar {
     LoggerManager();
     Logger::ptr getLogger(const std::string& name);
     void init();
-    Logger::ptr getRoot() const { return m_root;}
+    Logger::ptr getRoot() const { return m_root; }
   private:
     /// 日志器容器
     std::map<std::string, Logger::ptr> m_loggers;
     /// 主日志器
     Logger::ptr m_root;
   };
+
+  typedef sylar::Singleton<LoggerManager> LoggerMgr;
 
 }
 

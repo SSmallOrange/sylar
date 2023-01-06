@@ -5,6 +5,7 @@
 #include <thread>
 #include "../sylar/log.h"
 #include "../sylar/util.h"
+#include "../sylar/config.h"
 
 using namespace std;
 int main(int argc, char** argv) {
@@ -28,6 +29,12 @@ int main(int argc, char** argv) {
   SYLAR_LOG_ERROR(logger) << "test macro error";
 
   SYLAR_LOG_FMT_ERROR(logger, "test macro fmt error %s", "aa");
+
+  auto l = sylar::LoggerMgr::GetInstance()->getLogger("xx");
+  int a = 0;
+  SYLAR_LOG_INFO(l) << typeid(a).name();
+
+
    // std::cout << "hello wrold" << std::endl;
   /*time_t time_seconds = time(0);
   struct tm now_time;

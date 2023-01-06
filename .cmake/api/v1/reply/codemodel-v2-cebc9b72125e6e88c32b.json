@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -43,7 +45,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "sylar::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sylar-Debug-6bc7395ca6a567f62eb1.json",
+					"jsonFile" : "target-sylar-Debug-61c042b0d543908b19db.json",
 					"name" : "sylar",
 					"projectIndex" : 0
 				},
@@ -56,8 +58,15 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "test_config::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_config-Debug-9785d52603bba6738cb0.json",
+					"name" : "test_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "workspace::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-workspace-Debug-7c0b56dd611458b73f03.json",
+					"jsonFile" : "target-workspace-Debug-ed1d44fb2616b2792e9b.json",
 					"name" : "workspace",
 					"projectIndex" : 0
 				}

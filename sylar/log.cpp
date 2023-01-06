@@ -383,7 +383,6 @@ namespace sylar {
 
   LoggerManager::LoggerManager() {
     m_root.reset(new Logger);
-
     m_root->addAppender(LogAppender::ptr(new StdoutLogAppender));
   }
 

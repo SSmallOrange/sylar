@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -fPIC -shared -Wl,-soname,libsylar.so -o ../lib/libsylar.so CMakeFiles/sylar.dir/sylar/log.cpp.o CMakeFiles/sylar.dir/tests/test.cpp.o 
