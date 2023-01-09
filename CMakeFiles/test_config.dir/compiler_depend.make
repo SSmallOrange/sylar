@@ -242,6 +242,7 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
   /usr/include/linux/close_range.h \
   sylar/singleton.h \
   sylar/config.h \
+  /usr/include/c++/11/iostream \
   /usr/include/boost/lexical_cast.hpp \
   /usr/include/boost/config.hpp \
   /usr/include/boost/config/user.hpp \
@@ -852,9 +853,93 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
   /usr/include/boost/integer.hpp \
   /usr/include/boost/integer_fwd.hpp \
   /usr/include/boost/detail/basic_pointerbuf.hpp \
-  sylar/log.h \
-  /usr/include/c++/11/iostream
+  /usr/local/include/yaml-cpp/yaml.h \
+  /usr/local/include/yaml-cpp/parser.h \
+  /usr/local/include/yaml-cpp/dll.h \
+  /usr/local/include/yaml-cpp/emitter.h \
+  /usr/local/include/yaml-cpp/binary.h \
+  /usr/local/include/yaml-cpp/emitterdef.h \
+  /usr/local/include/yaml-cpp/emittermanip.h \
+  /usr/local/include/yaml-cpp/null.h \
+  /usr/local/include/yaml-cpp/ostream_wrapper.h \
+  /usr/local/include/yaml-cpp/emitterstyle.h \
+  /usr/local/include/yaml-cpp/stlemitter.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/local/include/yaml-cpp/exceptions.h \
+  /usr/local/include/yaml-cpp/mark.h \
+  /usr/local/include/yaml-cpp/noexcept.h \
+  /usr/local/include/yaml-cpp/traits.h \
+  /usr/local/include/yaml-cpp/node/node.h \
+  /usr/local/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/local/include/yaml-cpp/node/ptr.h \
+  /usr/local/include/yaml-cpp/node/type.h \
+  /usr/local/include/yaml-cpp/node/impl.h \
+  /usr/local/include/yaml-cpp/node/detail/memory.h \
+  /usr/local/include/yaml-cpp/node/detail/node.h \
+  /usr/local/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/local/include/yaml-cpp/node/detail/node_data.h \
+  /usr/local/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/local/include/yaml-cpp/node/iterator.h \
+  /usr/local/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/c++/11/atomic \
+  /usr/local/include/yaml-cpp/node/convert.h \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/local/include/yaml-cpp/node/detail/impl.h \
+  /usr/local/include/yaml-cpp/node/parse.h \
+  /usr/local/include/yaml-cpp/node/emit.h \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  sylar/log.h
 
+
+/usr/include/c++/11/unordered_set:
+
+/usr/local/include/yaml-cpp/node/emit.h:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+/usr/include/c++/11/bits/mask_array.h:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+/usr/include/c++/11/bits/slice_array.h:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/c++/11/atomic:
+
+/usr/local/include/yaml-cpp/node/iterator.h:
+
+/usr/local/include/yaml-cpp/node/ptr.h:
+
+/usr/local/include/yaml-cpp/node/detail/iterator_fwd.h:
+
+/usr/local/include/yaml-cpp/mark.h:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/usr/local/include/yaml-cpp/stlemitter.h:
+
+/usr/local/include/yaml-cpp/emitterstyle.h:
+
+/usr/local/include/yaml-cpp/ostream_wrapper.h:
+
+/usr/local/include/yaml-cpp/emitterdef.h:
+
+/usr/local/include/yaml-cpp/emitter.h:
 
 /usr/include/boost/integer.hpp:
 
@@ -883,6 +968,8 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 /usr/include/boost/predef/other/endian.h:
 
 /usr/include/c++/11/math.h:
+
+/usr/local/include/yaml-cpp/node/detail/impl.h:
 
 /usr/include/c++/11/stdlib.h:
 
@@ -1058,6 +1145,8 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 
 /usr/include/boost/predef/make.h:
 
+/usr/include/c++/11/valarray:
+
 /usr/include/boost/predef/version_number.h:
 
 /usr/include/boost/predef/architecture/x86/32.h:
@@ -1081,6 +1170,8 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 /usr/include/c++/11/cstring:
 
 /usr/include/boost/move/detail/std_ns_end.hpp:
+
+/usr/local/include/yaml-cpp/node/impl.h:
 
 /usr/include/boost/move/detail/std_ns_begin.hpp:
 
@@ -1172,6 +1263,8 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 
 /usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
 
+/usr/local/include/yaml-cpp/dll.h:
+
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
 
 /usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
@@ -1186,6 +1279,8 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 
 /usr/include/boost/mpl/aux_/comparison_op.hpp:
 
+/usr/include/c++/11/bits/valarray_array.tcc:
+
 /usr/include/boost/numeric/conversion/detail/meta.hpp:
 
 /usr/include/boost/mpl/vector.hpp:
@@ -1198,7 +1293,11 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 
 /usr/include/boost/type.hpp:
 
+/usr/local/include/yaml-cpp/parser.h:
+
 /usr/include/boost/numeric/conversion/cast.hpp:
+
+/usr/local/include/yaml-cpp/node/detail/node_data.h:
 
 /usr/include/boost/type_traits/is_base_of.hpp:
 
@@ -1240,6 +1339,8 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 
 /usr/include/boost/iterator/iterator_adaptor.hpp:
 
+/usr/local/include/yaml-cpp/node/detail/memory.h:
+
 /usr/include/boost/range/reverse_iterator.hpp:
 
 /usr/include/boost/range/rbegin.hpp:
@@ -1276,6 +1377,8 @@ CMakeFiles/test_config.dir/tests/test_config.cpp.o: tests/test_config.cpp \
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
+/usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+
 /usr/include/boost/mpl/aux_/clear_impl.hpp:
 
 /usr/include/boost/config/helper_macros.hpp:
@@ -1303,6 +1406,8 @@ sylar/config.h:
 /usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
 
 /usr/include/time.h:
+
+/usr/local/include/yaml-cpp/yaml.h:
 
 /usr/include/boost/mpl/limits/arity.hpp:
 
@@ -1332,7 +1437,7 @@ sylar/util.h:
 
 /usr/include/boost/mpl/aux_/na_fwd.hpp:
 
-/usr/include/c++/11/optional:
+/usr/include/c++/11/bits/valarray_before.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
@@ -1344,11 +1449,15 @@ sylar/util.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
+/usr/local/include/yaml-cpp/node/type.h:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/boost/preprocessor/variadic/elem.hpp:
+
+/usr/local/include/yaml-cpp/emittermanip.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -1396,6 +1505,8 @@ sylar/util.h:
 
 /usr/include/boost/mpl/aux_/has_apply.hpp:
 
+/usr/include/c++/11/bits/unordered_set.h:
+
 /usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/cstddef:
@@ -1419,6 +1530,8 @@ sylar/util.h:
 /usr/include/c++/11/sstream:
 
 /usr/include/x86_64-linux-gnu/asm/unistd_64.h:
+
+/usr/local/include/yaml-cpp/node/parse.h:
 
 /usr/include/boost/mpl/aux_/config/gcc.hpp:
 
@@ -1452,6 +1565,8 @@ sylar/singleton.h:
 
 /usr/include/c++/11/typeinfo:
 
+/usr/local/include/yaml-cpp/node/detail/node.h:
+
 /usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/c++/11/ostream:
@@ -1469,8 +1584,6 @@ sylar/singleton.h:
 /usr/include/boost/mpl/iter_fold_if.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
-
-/usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
 
 /usr/include/c++/11/bits/align.h:
 
@@ -1536,6 +1649,8 @@ sylar/singleton.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/usr/local/include/yaml-cpp/node/node.h:
+
 /usr/include/boost/mpl/aux_/O1_size_impl.hpp:
 
 /usr/include/boost/mpl/equal_to.hpp:
@@ -1557,10 +1672,6 @@ sylar/singleton.h:
 /usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/boost/mpl/arg_fwd.hpp:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/boost/preprocessor/seq/for_each_i.hpp:
 
@@ -1589,6 +1700,8 @@ sylar/singleton.h:
 /usr/include/boost/type_traits/conditional.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/local/include/yaml-cpp/binary.h:
 
 /usr/include/boost/mpl/aux_/yes_no.hpp:
 
@@ -1740,6 +1853,10 @@ sylar/singleton.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/11/iostream:
+
 /usr/include/boost/config/workaround.hpp:
 
 /usr/include/boost/mpl/aux_/config/gpu.hpp:
@@ -1763,6 +1880,8 @@ sylar/singleton.h:
 /usr/include/boost/swap.hpp:
 
 /usr/include/boost/type_traits/is_volatile.hpp:
+
+/usr/local/include/yaml-cpp/node/detail/node_iterator.h:
 
 /usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
 
@@ -1872,6 +1991,8 @@ sylar/log.h:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
+/usr/local/include/yaml-cpp/null.h:
+
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -1950,7 +2071,11 @@ tests/test_config.cpp:
 
 /usr/include/c++/11/backward/binders.h:
 
+/usr/include/c++/11/set:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/bits/gslice.h:
 
 /usr/include/boost/preprocessor/repetition/for.hpp:
 
@@ -1963,6 +2088,8 @@ tests/test_config.cpp:
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/boost/iterator/detail/config_def.hpp:
+
+/usr/local/include/yaml-cpp/noexcept.h:
 
 /usr/include/c++/11/bits/basic_string.h:
 
@@ -2052,9 +2179,15 @@ tests/test_config.cpp:
 
 /usr/include/boost/preprocessor/cat.hpp:
 
+/usr/local/include/yaml-cpp/traits.h:
+
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/usr/local/include/yaml-cpp/node/convert.h:
+
+/usr/include/c++/11/optional:
 
 /usr/include/c++/11/variant:
 
@@ -2256,6 +2389,8 @@ tests/test_config.cpp:
 
 /usr/include/boost/preprocessor/detail/check.hpp:
 
+/usr/local/include/yaml-cpp/exceptions.h:
+
 /usr/include/boost/preprocessor/logical/compl.hpp:
 
 /usr/include/boost/preprocessor/list/reverse.hpp:
@@ -2303,6 +2438,8 @@ tests/test_config.cpp:
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /usr/include/boost/utility/base_from_member.hpp:
+
+/usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/boost/type_traits/is_rvalue_reference.hpp:
 
@@ -2390,6 +2527,8 @@ tests/test_config.cpp:
 
 /usr/include/boost/type_traits/is_pod.hpp:
 
+/usr/local/include/yaml-cpp/node/detail/node_ref.h:
+
 /usr/include/boost/mpl/vector/aux_/item.hpp:
 
 /usr/include/boost/type_traits/is_floating_point.hpp:
@@ -2409,6 +2548,8 @@ tests/test_config.cpp:
 /usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/usr/local/include/yaml-cpp/node/detail/iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 

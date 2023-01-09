@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/workspace.dir/main.cpp.o"
   "CMakeFiles/workspace.dir/main.cpp.o.d"
-  "CMakeFiles/workspace.dir/sylar/log.cpp.o"
-  "CMakeFiles/workspace.dir/sylar/log.cpp.o.d"
   "bin/workspace"
   "bin/workspace.pdb"
 )

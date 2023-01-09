@@ -168,32 +168,6 @@ workspace/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/build
 .PHONY : workspace/fast
 
-#=============================================================================
-# Target rules for targets named log
-
-# Build rule for target.
-log: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 log
-.PHONY : log
-
-# fast build rule for target.
-log/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/build
-.PHONY : log/fast
-
-#=============================================================================
-# Target rules for targets named singleton
-
-# Build rule for target.
-singleton: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 singleton
-.PHONY : singleton
-
-# fast build rule for target.
-singleton/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/singleton.dir/build.make CMakeFiles/singleton.dir/build
-.PHONY : singleton/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -248,7 +222,6 @@ sylar/log.o: sylar/log.cpp.o
 # target to build an object file
 sylar/log.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/log.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/sylar/log.cpp.o
 .PHONY : sylar/log.cpp.o
 
 sylar/log.i: sylar/log.cpp.i
@@ -257,7 +230,6 @@ sylar/log.i: sylar/log.cpp.i
 # target to preprocess a source file
 sylar/log.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/log.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/sylar/log.cpp.i
 .PHONY : sylar/log.cpp.i
 
 sylar/log.s: sylar/log.cpp.s
@@ -266,7 +238,6 @@ sylar/log.s: sylar/log.cpp.s
 # target to generate assembly for a file
 sylar/log.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/log.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/sylar/log.cpp.s
 .PHONY : sylar/log.cpp.s
 
 sylar/util.o: sylar/util.cpp.o
@@ -349,8 +320,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... log"
-	@echo "... singleton"
 	@echo "... sylar"
 	@echo "... test"
 	@echo "... test_config"

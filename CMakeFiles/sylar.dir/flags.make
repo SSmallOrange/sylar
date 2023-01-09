@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++-14
 CXX_DEFINES = -Dsylar_EXPORTS
 
-CXX_INCLUDES = -I/home/orange/workspace/.
+CXX_INCLUDES = -I/home/orange/workspace/. -I/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp
 
 CXX_FLAGS = -g -fPIC
 

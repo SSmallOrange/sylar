@@ -1,1 +1,1 @@
-/usr/bin/clang++-14 -g CMakeFiles/test_config.dir/tests/test_config.cpp.o -o bin/test_config  -Wl,-rpath,/home/orange/workspace/lib lib/libsylar.so 
+/usr/bin/clang++-14 -g CMakeFiles/test_config.dir/tests/test_config.cpp.o -o bin/test_config   -L/home/orange/workspace/lib  -Wl,-rpath,/home/orange/workspace/lib lib/libsylar.so -lyaml-cpp 

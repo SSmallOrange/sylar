@@ -53,6 +53,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/test_config.dir/DependInfo.cmake"
   "CMakeFiles/workspace.dir/DependInfo.cmake"
-  "CMakeFiles/log.dir/DependInfo.cmake"
-  "CMakeFiles/singleton.dir/DependInfo.cmake"
   )

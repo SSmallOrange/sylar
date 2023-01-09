@@ -1,8 +1,4 @@
 C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/orange/workspace && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang '-DCMAKE_CXX_COMPILER=/usr/bin/clang++-14' -G 'CodeBlocks - Unix Makefiles' -S /home/orange/workspace -B /home/orange/workspace"
 -- Configuring done
-CMake Error: Cannot determine link language for target "log".
-CMake Error: CMake can not determine linker language for target: log
-CMake Error: Cannot determine link language for target "singleton".
-CMake Error: CMake can not determine linker language for target: singleton
 -- Generating done
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Build files have been written to: /home/orange/workspace

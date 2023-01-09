@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++-14
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/orange/workspace/.
+CXX_INCLUDES = -I/home/orange/workspace/. -I/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp
 
 CXX_FLAGS = -g -std=gnu++17
 

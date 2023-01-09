@@ -25,6 +25,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -48,6 +49,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -71,6 +73,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -94,6 +97,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -117,6 +121,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -140,6 +145,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -163,6 +169,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -186,6 +193,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
@@ -196,98 +204,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 workspace/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="log">
-				<Option output="/home/orange/workspace/bin/log" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/orange/workspace/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/home/orange/workspace/."/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
-					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 log"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="log/fast">
-				<Option output="/home/orange/workspace/bin/log" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/orange/workspace/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/home/orange/workspace/."/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
-					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 log/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="singleton">
-				<Option output="/home/orange/workspace/bin/singleton" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/orange/workspace/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/home/orange/workspace/."/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
-					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 singleton"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="singleton/fast">
-				<Option output="/home/orange/workspace/bin/singleton" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/orange/workspace/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/home/orange/workspace/."/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
-					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 singleton/fast"/>
 					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
@@ -325,14 +241,9 @@
 		</Unit>
 		<Unit filename="/home/orange/workspace/sylar/log.cpp">
 			<Option target="sylar"/>
-			<Option target="workspace"/>
 		</Unit>
 		<Unit filename="/home/orange/workspace/sylar/log.h">
-			<Option target="workspace"/>
-			<Option target="log"/>
-		</Unit>
-		<Unit filename="/home/orange/workspace/sylar/singleton.h">
-			<Option target="singleton"/>
+			<Option target="sylar"/>
 		</Unit>
 		<Unit filename="/home/orange/workspace/sylar/util.cpp">
 			<Option target="sylar"/>

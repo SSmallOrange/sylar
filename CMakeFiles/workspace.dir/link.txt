@@ -1,1 +1,1 @@
-/usr/bin/clang++-14 -g CMakeFiles/workspace.dir/main.cpp.o CMakeFiles/workspace.dir/sylar/log.cpp.o -o bin/workspace 
+/usr/bin/clang++-14 -g CMakeFiles/workspace.dir/main.cpp.o -o bin/workspace   -L/home/orange/workspace/lib 

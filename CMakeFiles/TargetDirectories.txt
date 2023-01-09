@@ -2,7 +2,5 @@
 /home/orange/workspace/CMakeFiles/test.dir
 /home/orange/workspace/CMakeFiles/test_config.dir
 /home/orange/workspace/CMakeFiles/workspace.dir
-/home/orange/workspace/CMakeFiles/log.dir
-/home/orange/workspace/CMakeFiles/singleton.dir
 /home/orange/workspace/CMakeFiles/edit_cache.dir
 /home/orange/workspace/CMakeFiles/rebuild_cache.dir

@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
   std_fmt->setFormatter(fmt);
   logger->addAppender(std_fmt);
 
-  sylar::FileLogAppender::ptr file_appender(new sylar::FileLogAppender("tests/log.txt"));
+  sylar::FileLogAppender::ptr file_appender(new sylar::FileLogAppender("./log.txt"));
   sylar::LogFormatter::ptr fmtt(new sylar::LogFormatter("%d%T%p%T%m%n"));
   file_appender->setFormatter(fmtt);
   file_appender->setLevel(sylar::LogLevel::ERROR);
