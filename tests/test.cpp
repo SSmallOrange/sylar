@@ -6,6 +6,7 @@
 #include "../sylar/log.h"
 #include "../sylar/util.h"
 #include "../sylar/config.h"
+#include "thread"
 
 using namespace std;
 int main(int argc, char** argv) {

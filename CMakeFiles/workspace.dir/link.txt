@@ -1,1 +1,1 @@
-/usr/bin/clang++-14 -g CMakeFiles/workspace.dir/main.cpp.o -o bin/workspace   -L/home/orange/workspace/lib 
+/usr/bin/clang++-14 -Wbuiltin-macro-redefined -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g CMakeFiles/workspace.dir/main.cpp.o -o bin/workspace   -L/home/orange/workspace/lib 

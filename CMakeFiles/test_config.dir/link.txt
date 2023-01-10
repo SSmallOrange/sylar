@@ -1,1 +1,1 @@
-/usr/bin/clang++-14 -g CMakeFiles/test_config.dir/tests/test_config.cpp.o -o bin/test_config   -L/home/orange/workspace/lib  -Wl,-rpath,/home/orange/workspace/lib lib/libsylar.so -lyaml-cpp 
+/usr/bin/clang++-14 -Wbuiltin-macro-redefined -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g CMakeFiles/test_config.dir/tests/test_config.cpp.o -o bin/test_config   -L/home/orange/workspace/lib  -Wl,-rpath,/home/orange/workspace/lib lib/libsylar.so -lyaml-cpp 

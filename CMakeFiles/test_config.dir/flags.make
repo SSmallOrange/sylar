@@ -6,5 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/orange/workspace/. -I/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGS = -Wbuiltin-macro-redefined -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g -std=gnu++17
+
+# Custom defines: CMakeFiles/test_config.dir/tests/test_config.cpp.o_DEFINES = __FILE__="tests/test_config.cpp"
 

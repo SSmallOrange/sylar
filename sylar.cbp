@@ -5,7 +5,7 @@
 		<Option title="sylar"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/orange/workspace"/>
@@ -161,6 +161,54 @@
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test_thread">
+				<Option output="/home/orange/workspace/bin/test_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orange/workspace/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 test_thread"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_thread/fast">
+				<Option output="/home/orange/workspace/bin/test_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orange/workspace/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/orange/workspace/."/>
+					<Add directory="/home/orange/workspace/../yaml/yaml-cpp/include/yaml-cpp"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 test_thread/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/orange/workspace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="workspace">
 				<Option output="/home/orange/workspace/bin/workspace" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/orange/workspace/bin"/>
@@ -245,6 +293,12 @@
 		<Unit filename="/home/orange/workspace/sylar/log.h">
 			<Option target="sylar"/>
 		</Unit>
+		<Unit filename="/home/orange/workspace/sylar/thread.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/orange/workspace/sylar/thread.h">
+			<Option target="sylar"/>
+		</Unit>
 		<Unit filename="/home/orange/workspace/sylar/util.cpp">
 			<Option target="sylar"/>
 		</Unit>
@@ -257,8 +311,14 @@
 		<Unit filename="/home/orange/workspace/tests/test_config.cpp">
 			<Option target="test_config"/>
 		</Unit>
+		<Unit filename="/home/orange/workspace/tests/test_thread.cpp">
+			<Option target="test_thread"/>
+		</Unit>
 		<Unit filename="/home/orange/workspace/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/orange/workspace/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

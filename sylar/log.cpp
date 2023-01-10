@@ -206,7 +206,7 @@ namespace sylar {
 
   void Logger::addAppender(const LogAppender::ptr& appender) {
     if (!appender->getFormatter()) {
-     appender->setFormatter(m_formatter);
+     appender->m_formatter = m_formatter;
     }
     // std::cout << "addAppender" << std::endl;
     m_appenders.push_back(appender);
@@ -226,6 +226,11 @@ namespace sylar {
 
   void Logger::setFormatter(LogFormatter::ptr val) {
     m_formatter = val;
+    for (auto& i : m_appenders) {
+      if (!i->m_hasFormatter) {
+        i->m_formatter = m_formatter;
+      }
+    }
   }
 
   void Logger::setFormatter(const std::string &val) {
@@ -235,7 +240,8 @@ namespace sylar {
                 << " value = " << val <<" invalid formatter" << std::endl;
       return;
     }
-    m_formatter = new_val;
+    // m_formatter = new_val;
+    setFormatter(new_val);
   }
 
   LogFormatter::ptr Logger::getFormatter() {
@@ -287,7 +293,7 @@ namespace sylar {
     if (m_level != LogLevel::UNKNOW) {
       node["level"] = LogLevel::ToString(m_level);
     }
-    if (m_formatter) {
+    if (m_hasFormatter && m_formatter) {
       node["formatter"] = m_formatter->getPattern();
     }
     std::stringstream ss;
@@ -307,7 +313,7 @@ namespace sylar {
     if (m_level != LogLevel::UNKNOW) {
       node["level"] = LogLevel::ToString(m_level);
     }
-    if (m_formatter) {
+    if (m_hasFormatter && m_formatter) {
       node["formatter"] = m_formatter->getPattern();
     }
     std::stringstream ss;
@@ -738,6 +744,7 @@ namespace sylar {
               continue;
             }
           }
+          // mypoint 在这里logger已经拿到了他需要的logger指针，方便下面修改logger内容
           logger->setLevel(i.level);
           //std::cout << "** " << i.name << " level=" << i.level
           //<< "  " << logger << std::endl;
@@ -797,5 +804,13 @@ namespace sylar {
     std::stringstream ss;
     ss << node;
     return ss.str();
+  }
+
+  void LogAppender::setFormatter(LogFormatter::ptr val) {
+    m_formatter = val;
+    if (m_formatter) {
+      m_hasFormatter = true;
+    } else {}
+    m_hasFormatter = false;
   }
 }

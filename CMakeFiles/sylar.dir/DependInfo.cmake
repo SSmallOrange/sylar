@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/orange/workspace/sylar/config.cpp" "CMakeFiles/sylar.dir/sylar/config.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/config.cpp.o.d"
   "/home/orange/workspace/sylar/log.cpp" "CMakeFiles/sylar.dir/sylar/log.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/log.cpp.o.d"
+  "/home/orange/workspace/sylar/thread.cpp" "CMakeFiles/sylar.dir/sylar/thread.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/thread.cpp.o.d"
   "/home/orange/workspace/sylar/util.cpp" "CMakeFiles/sylar.dir/sylar/util.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/util.cpp.o.d"
   )
 
